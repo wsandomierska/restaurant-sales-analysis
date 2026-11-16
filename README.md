@@ -1,4 +1,5 @@
 # Restaurant Sales & Menu Performance Analysis
+![Restaurant Sales Dashboard](dashboard.png)
 
 ## Project Overview
 
