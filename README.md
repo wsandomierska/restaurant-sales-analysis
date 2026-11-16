@@ -64,3 +64,22 @@ An interactive Tableau dashboard was developed to visualize sales performance, m
 The dataset contains 137 order records with missing product IDs. Revenue and average order value are calculated using available price data and may therefore underestimate actual sales revenue.
 
 The dataset does not contain cost information, so profitability cannot be assessed.
+
+## Repository Structure
+
+| File | Description |
+|---|---|
+| `restaurant_analysis.sql` | SQL queries used for sales analysis, KPI calculations and menu performance evaluation. |
+| `menu_items.m` | Power Query transformations for the menu dataset. |
+| `sales_analysis.m` | Data cleaning, table merging, feature extraction and data quality checks. |
+| `dashboard.png` | Preview of the interactive Tableau dashboard. |
+
+## Reproducing the Analysis
+
+1. Download the original dataset from Maven Analytics.
+2. Import the CSV files into Excel using Power Query.
+3. Apply the provided M scripts, adjusting the source file paths.
+4. Import the original dataset into MySQL and execute the SQL queries.
+5. Use the cleaned dataset to create visualizations in Tableau.
+
+The dashboard is currently available as a static preview due to a Tableau Public publishing issue.
